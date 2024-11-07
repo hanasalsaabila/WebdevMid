@@ -1,0 +1,361 @@
+*{
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 1125px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.navbar .kiri {
+    margin-top: 15px;
+    color: #0F2C59;
+}
+
+.menu a {
+    margin: 10px;
+    text-decoration: none;
+    color: #0F2C59;
+}
+
+.menu a img {
+    width: 30px;
+}
+
+.menu {
+    margin-top: 10px;
+    position: relative;
+}
+
+.menu img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+nav {
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    pad: 10px;
+    height: 70px;
+    margin-bottom: 1px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li ul.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 5px #0F2C59 (0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+nav ul li:hover ul.submenu {
+    display: block;
+    width: 250px;
+}
+
+nav ul li ul.submenu li {
+    padding: 10px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #0F2C59;
+}
+
+nav ul li a:hover {
+    color: #0F2C59;
+}
+
+/*Our Team*/
+.meetOurTeam {
+    background: #F4F6F3;
+    padding: 20px 0 20px 0;
+}
+
+.OurTeamcontainer{
+    display: grid;
+    flex-wrap: wrap;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+    justify-content: center;
+    margin-right:50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.team h1{
+    font-size: 50px;
+    border-left: 4px solid #0F2C59;
+    line-height: 1.2;
+    padding-left: 20px;
+    color: #0F2C59;
+}
+    
+.team{
+    padding: 10px 5px 10px 10px;
+    position: relative;
+}
+    
+.tengahh {
+    flex: 1;
+    padding: 20px 5px 5px 5px;
+    position: relative;
+    float: right:
+}
+    
+.tengahh p {
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+}
+    
+.kanann p{
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+}
+    
+.kanann {
+    flex: 1;
+    padding: 20px 5px 5px 5px;
+    position: relative;
+    float: right:
+}
+
+.founders-text{
+    color: #0F2C59;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.judull p {
+    font-size: large;
+}
+    
+.judull h1 {
+    margin-top: 10px;
+}
+
+.founders-images {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+ 
+.founders-images img {
+    width: 316px;
+    height: 449px;
+    object-fit: cover:
+}
+    
+.joinuscontainer {
+    display: grid;
+    flex-wrap: wrap;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    justify-items: center;
+    background: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px 20px 20px 20px;
+    margin-left: 65px;
+    margin-bottom: 50px;
+    width: 950px;
+    height: 150px;
+}
+
+.joinuscontainer h1 {
+    font-size: 40px;
+    padding: 30px 40px 10px 40px;
+    text-align: center;
+}
+
+.joinuscontainer button {
+    padding: 10px 20px;
+    margin-left: 150px;
+    margin-top: 50px;
+    width: 200px;
+    height: 40px;
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+    float: right;
+}
+
+.footercontainer {
+    background-color: #000;
+    margin-top: 50px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+/* about us */
+
+.aboutus {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.aboutus-text {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.aboutus-text h2 {
+    margin-top: 10px;
+    margin-bottom: 38px;
+}
+
+.aboutus-text p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.aboutus img {
+    margin-left: 40px;
+    margin-right: 40px;
+    max-width: 200px;
+    /* Atur lebar maksimum yang diinginkan */
+    max-height: 150px;
+    cursor: pointer;
+}
+
+.latest-news {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-top: -3;
+    margin-left: 20px;
+}
+
+.news1 {
+    display: flex;
+    flex-direction: column;
+    /* Mengatur elemen secara horizontal di tengah */
+    margin-top: 20px;
+    /* Mengatur jarak antara setiap berita */
+}
+
+.latest-news img {
+    width: 40px;
+    height: 40px;
+    margin-left: -40px;
+    margin-top: 20px;
+}
+
+.latest-news h3 {
+    margin-top: -13px;
+    cursor: pointer;
+}
+
+.latest-news h2 {
+    margin-right: 10px;
+}
+
+h2 {
+    margin-right: 20px;
+}
+
+. .newsInfo {
+    margin-left: 20px;
+    /* Jarak antara gambar dan userInfo */
+    display: flex;
+    flex-direction: column;
+    /* Agar elemen-elemen diatur secara vertikal */
+    font-size: 8px;
+    float: left;
+}
+
+.newsInfo {
+    margin-top: -30px;
+    margin-left: 12px;
+}
+
+
+/* join news letter */
+
+.join-newsletter h2 {
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 40px
+}
+
+.join-newsletter input[type="email"] {
+    padding: 10px 20px;
+    width: 50%;
+    height: 20px;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    /* Warna latar belakang input email */
+    color: #0F2C59;
+    /* Warna teks input email */
+}
+
+.join-newsletter button {
+    padding: 10px 20px;
+    height: 40px;
+    background-color: whitesmoke;
+    /* Warna latar belakang tombol subscribe */
+    color: #0F2C59;
+    /* Warna teks tombol subscribe */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.join-newsletter p {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    /* Jarak bawah paragraf pada bagian join our newsletter */
+}
+
+.copyright {
+    text-align: center;
+    justify-items: center;
+    padding: 20px 0;
+    background: #0F2C59;
+    color: white;
+    font-family: Arial, sans-serif;
+}

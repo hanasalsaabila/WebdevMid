@@ -1,0 +1,551 @@
+*{
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 1125px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.navbar .kiri {
+    margin-top: 15px;
+    color: #0F2C59;
+}
+
+.menu a {
+    margin: 10px;
+    text-decoration: none;
+    color: #0F2C59;
+}
+
+.menu a img {
+    width: 30px;
+}
+
+.menu {
+    margin-top: 10px;
+    position: relative;
+}
+
+.menu img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+nav {
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    pad: 10px;
+    height: 70px;
+    margin-bottom: 1px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li ul.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 5px #0F2C59 (0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+nav ul li:hover ul.submenu {
+    display: block;
+    width: 250px;
+}
+
+nav ul li ul.submenu li {
+    padding: 10px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #0F2C59;
+}
+
+nav ul li a:hover {
+    color: #0F2C59;
+}
+
+.judul {
+
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: black;
+    display: flex;
+    position: relative;
+    align-items: center;
+
+}
+
+.home p{
+    font-size: 20px;
+    color: #b4afaf;
+    margin-bottom: 20px;
+}
+
+.home h3{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.sort {
+
+    margin-left: auto;
+
+}
+
+.sort select{
+
+    padding: 10px 20px;
+    margin-right: 440px;
+
+}
+
+
+
+
+/* Product Pic */
+
+.produk {
+
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+    gap: 20px;
+    padding-top: 10px;
+
+}
+
+ 
+.produk img {
+
+    width: 200px;
+    height: 200px;
+    padding: 0 0 10px;
+    cursor: pointer;
+
+}
+
+ 
+.p1 {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+ 
+.p2 {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+ 
+.p3 {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+ 
+.rate {
+
+    font-size: 20px;
+
+    padding: 5px 0 5px 0;
+
+}
+
+ 
+.bins {
+
+    color: rgba(255, 183, 0, 0.792);
+
+}
+
+
+ 
+.kosong {
+
+    color: #ccc;
+
+}
+
+ 
+.kata {
+
+    font-family: Arial, sans-serif;
+    font-size: 9px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    cursor: pointer;
+
+}
+
+ 
+.kata p {
+
+    margin-top: 5px;
+    font-size: 15px;
+
+}
+
+.kata button {
+
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    background: black;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin-top: 5px;
+    border: none;
+}
+
+
+.meow del {
+
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    text-decoration: line-through;
+    color: #999;
+
+}
+
+ 
+.meow {
+
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+
+}
+
+
+
+/* Popular Products */
+
+.PC {
+
+    margin-top: -140px;
+    margin-bottom: 60px;
+    margin-top: -3;
+    float: right;
+    margin-right: 140px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    align-items: center;
+    padding: 40px;
+    
+
+}
+
+.PC ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.PC li {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 10px; 
+}
+
+.PC img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px; 
+    margin-top: 10px;
+}
+
+.PC p {
+    margin: 0; 
+}
+
+
+/* Page */
+
+
+.page {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 22%;
+}
+
+
+.page-link {
+    display: block;
+    text-decoration: none;
+    background-color: rgb(20, 20, 20);
+    color: #fff;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.page-link:hover {
+    background-color: rgb(20, 20, 20);
+}
+
+
+/* Search Products */
+
+.look {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    float: right;
+    margin-top: -85%;
+    margin-right: 10%;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+}
+
+.look h2 {
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+
+.look input[type="search"] {
+    border: black;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 55px;
+    background-color: #fff;
+}
+
+.look button {
+
+        padding: 10px 20px;
+        height: 40px;
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        margin-right: -90%;
+        margin-top: -14%;
+    
+}
+
+/* Follow Us */
+.pollow {
+
+    margin-top: -75%;
+    margin-bottom: 60px;
+    float: right;
+    margin-right: 90px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    align-items: center;
+    padding: 40px;
+    
+
+}
+
+.pollow ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.pollow li {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 10px; 
+}
+
+.pollow img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px; 
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.pollow h2 {
+    margin: 0; 
+}
+
+.footercontainer {
+    background-color: #000;
+    margin-top: 50px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+/* about us */
+
+.aboutus {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.aboutus-text {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.aboutus-text h2 {
+    margin-top: 10px;
+    margin-bottom: 38px;
+}
+
+.aboutus-text p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.aboutus img {
+    margin-left: 40px;
+    margin-right: 40px;
+    max-width: 200px;
+    /* Atur lebar maksimum yang diinginkan */
+    max-height: 150px;
+    cursor: pointer;
+}
+
+.latest-news {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-top: -3;
+    margin-left: 20px;
+}
+
+.news1 {
+    display: flex;
+    flex-direction: column;
+    /* Mengatur elemen secara horizontal di tengah */
+    margin-top: 20px;
+    /* Mengatur jarak antara setiap berita */
+}
+
+.latest-news img {
+    width: 40px;
+    height: 40px;
+    margin-left: -40px;
+    margin-top: 20px;
+}
+
+.latest-news h3 {
+    margin-top: -13px;
+    cursor: pointer;
+}
+
+.latest-news h2 {
+    margin-right: 10px;
+}
+
+h2 {
+    margin-right: 20px;
+}
+
+. .newsInfo {
+    margin-left: 20px;
+    /* Jarak antara gambar dan userInfo */
+    display: flex;
+    flex-direction: column;
+    /* Agar elemen-elemen diatur secara vertikal */
+    font-size: 8px;
+    float: left;
+}
+
+.newsInfo {
+    margin-top: -30px;
+    margin-left: 12px;
+}
+
+
+/* join news letter */
+
+.join-newsletter h2 {
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 40px
+}
+
+.join-newsletter input[type="email"] {
+    padding: 10px 20px;
+    width: 50%;
+    height: 20px;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    /* Warna latar belakang input email */
+    color: #0F2C59;
+    /* Warna teks input email */
+}
+
+.join-newsletter button {
+    padding: 10px 20px;
+    height: 40px;
+    background-color: whitesmoke;
+    /* Warna latar belakang tombol subscribe */
+    color: #0F2C59;
+    /* Warna teks tombol subscribe */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.join-newsletter p {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    /* Jarak bawah paragraf pada bagian join our newsletter */
+}
+
+.copyright {
+    text-align: center;
+    justify-items: center;
+    padding: 20px 0;
+    background: #0F2C59;
+    color: white;
+    font-family: Arial, sans-serif;
+}
